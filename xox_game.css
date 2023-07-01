@@ -1,0 +1,114 @@
+html , body{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    background-image: linear-gradient(to left , rgb(85, 85, 187) 25%, rgb(173, 173, 245) 65%);
+}
+
+.main{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 35px ;
+    margin-bottom: 35px;
+    
+}
+
+.game{
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    background-color: #aad46b;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    gap: 15px 15px;
+    filter: drop-shadow(1px 1px 5px #aad46b);
+}
+
+.result{
+    box-sizing: border-box;
+    width: 600px;
+    height: 600px;
+    filter: drop-shadow(1px 1px 5px #aad46b);
+    background-color: #aad46b;
+}
+
+.element{
+    box-sizing: border-box;
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110px;
+    background-color: #e5e5e5;
+    border-radius: 7px;
+    filter: drop-shadow(1px 1px 5px rgb(143, 143, 143));
+}
+
+.winner{
+    display: inline-block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 400px;
+}
+
+.reset{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 22px;
+    border: none;
+    border-radius: 7px;
+    filter: drop-shadow(1px 1px 5px rgb(143, 143, 143));
+}
+
+.count{
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    filter: drop-shadow(1px 1px 5px rgb(143, 143, 143));
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.gamer1 , .gamer2{
+    margin: 40px 0px 10px 0px;
+    width: 190px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.line{
+    background-color: black;
+    width: 360px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.count1 , .count2{
+    width: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.row1 , .row2 {
+    width: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
